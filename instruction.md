@@ -20,7 +20,7 @@
   
 **Проверьте установку:**
 ```bash
-git --version
+git --version ```
 
 ## 3. Получение задания
 - Преподаватель выдаст ссылку на **GitHub Classroom** (например: https://classroom.github.com/a/XYZ123).
@@ -31,7 +31,7 @@ git --version
 -Скачайте репозиторий себе на компьютер:
 ```bash
 git clone https://github.com/OrgName/lab01-ivanov
-cd lab01-ivanov
+cd lab01-ivanov ```
 
 ## 5. Выполнение работы
 - Создайте Jupyter Notebook с именем строго по формату: ФИО_Группа_Lab1.ipynb
@@ -44,7 +44,7 @@ cd lab01-ivanov
 ```bash
 git add Ivanov_B20-505_ЛР1.ipynb
 git commit -m "Добавлено решение ЛР1"
-git push origin main
+git push origin main ```
 
 ## 7. Проверка загрузки
 - Перейдите в ваш репозиторий на GitHub через браузер.
@@ -75,7 +75,7 @@ git push origin main
 ```bash 
 git rm old_file.ipynb
 git commit -m "Удален лишний файл"
-git push origin main
+git push origin main ```
 
 **4. Мой ноутбук не открывается в GitHub, хотя на компьютере работает.**  
 ➡️ Убедитесь, что вы загрузили именно .ipynb, а не .py или .txt. Проверьте, что файл не пустой.

@@ -20,7 +20,8 @@
   
 **Проверьте установку:**
 ```bash
-git --version ```
+git --version
+```
 
 ## 3. Получение задания
 - Преподаватель выдаст ссылку на **GitHub Classroom** (например: https://classroom.github.com/a/XYZ123).

@@ -18,7 +18,7 @@
   ```bash
   sudo apt install git
   
-Проверьте установку:
+**Проверьте установку:**
 
 git --version
 

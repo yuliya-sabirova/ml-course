@@ -19,7 +19,7 @@
   sudo apt install git
   
 **Проверьте установку:**
-'''bash
+```bash
 git --version
 
 ## 3. Получение задания
@@ -29,7 +29,7 @@ git --version
 
 ## 4. Клонирование репозитория
 -Скачайте репозиторий себе на компьютер:
-'''bash
+```bash
 git clone https://github.com/OrgName/lab01-ivanov
 cd lab01-ivanov
 
@@ -41,7 +41,7 @@ cd lab01-ivanov
 
 ## 6. Отправка решения в GitHub
 - Выполните команды в терминале:
-'''bash
+```bash
 git add Ivanov_B20-505_ЛР1.ipynb
 git commit -m "Добавлено решение ЛР1"
 git push origin main
@@ -72,7 +72,7 @@ git push origin main
 
 **3. Я загрузил не тот файл. Как исправить?**  
 ➡️ Удалите лишний файл (git rm filename), закоммитьте и отправьте снова:
-'''bash 
+```bash 
 git rm old_file.ipynb
 git commit -m "Удален лишний файл"
 git push origin main
